@@ -1,0 +1,144 @@
+/* Reset & base */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-weight: 600;
+}
+
+h2, h3, h4 {
+  margin: 0 0 12px 0;
+}
+
+/* Navbar */
+.navbar {
+  padding: 12px 24px;
+  background: #0b5fff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  margin-left: 12px;
+  font-weight: 600;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 220px;
+  border-right: 1px solid #e5e7eb;
+  padding: 16px;
+  background: #fff;
+}
+
+.sidebar a {
+  display: block;
+  margin-bottom: 8px;
+  color: #0b5fff;
+  font-weight: 500;
+}
+
+/* Cards & Containers */
+.card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.container {
+  padding: 24px;
+}
+
+/* Buttons */
+.btn {
+  background: #0b5fff;
+  color: #fff;
+  transition: 0.2s;
+}
+
+.btn:hover {
+  background: #0842c3;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #0b5fff;
+  color: #0b5fff;
+}
+
+.btn-outline:hover {
+  background: #0b5fff;
+  color: #fff;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th, table td {
+  padding: 12px;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+table th {
+  background: #f9fafb;
+}
+
+/* Inputs */
+input {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+}
+
+input:focus {
+  outline: none;
+  border-color: #0b5fff;
+  box-shadow: 0 0 0 2px rgba(11,95,255,0.2);
+}
+
+/* Hero section */
+.hero-section {
+  background: linear-gradient(to right, #0b5fff, #3b82f6);
+  color: #fff;
+  padding: 60px 24px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.hero-section h1 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+
+.hero-section p {
+  font-size: 18px;
+  margin-bottom: 24px;
+}
+
+.hero-actions a {
+  margin: 0 8px;
+}
